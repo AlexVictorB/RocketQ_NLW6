@@ -13,7 +13,7 @@ html {
     --red: #E83F5B;
     --light-blue: #E0ECFF;
     --blue: #3485FF;
-    --background: #FBFCFF;
+    --background: #F6FAFF;
     --overlay: #040911;
     --icons-details: #A5B0C1;
 
@@ -21,5 +21,15 @@ html {
     --gray-blue: #A1B2CD;
     --gray-light: #E5EAF1;
 
-    font-size: 1.75rem;
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    background: var(--background);
+}
+
+body, button, input, textarea {
+    font-size: clamp(14px, 1.6rem, 2vw);
+    font-family: 'Open Sans', sans-serif;
 }
