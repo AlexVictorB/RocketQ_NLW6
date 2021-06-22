@@ -15,7 +15,7 @@
 
         <!--Fonts-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;700&display=swap"
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;700&display=swap"
             rel="stylesheet">
     </head>
     <body>
@@ -45,14 +45,35 @@
                         <label class="sr-only" for-id="question">O que você quer perguntar?</label>
                         <textarea name="question" id="question" placeholder="O que você quer perguntar?"></textarea>
 
-                        <fotter>
+                        <footer>
                             <div>
-                                <img src="" alt="">
+                                <img src="/assets/lock.svg" alt="Cadeado">
                                 Esta pergunta é anônima
                             </div>
                             <button>Enviar</button>
-                        </fotter>
+                        </footer>
                     </form>
+                </section>
+
+                <section id="questions">
+                    <h2 class="sr-only">Perguntas da comunidade</h2>
+
+                    <div class="questions">
+
+                        <div class="question-wrapper">
+                            <div class="question-content">
+                                <div class="user">
+                                    <img src="/assets/avatar.svg" alt="avatar">
+                                </div>
+                                <div class="question">
+                                    <p>Qual a diferença entre const var e let no javascript?</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </main>
         </div>
