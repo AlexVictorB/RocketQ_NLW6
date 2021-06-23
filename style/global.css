@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+/***COLORS***/
 
 html {
     --black: #0D114F;
@@ -20,6 +21,7 @@ html {
     --gray-dark: #4D5E77;
     --gray-blue: #A1B2CD;
     --gray-light: #E5EAF1;
+    --gray-medium: #eaecf2;
 
     font-size: 62.5%;
 }
@@ -81,7 +83,7 @@ button:hover, .button:hover {
     filter: brightness(1.2);
 }
 
-button > img
+button > img,
 .button > img {
     margin-right: 1rem;
     width: 2rem;
