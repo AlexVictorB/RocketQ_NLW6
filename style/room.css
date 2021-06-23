@@ -50,7 +50,7 @@
 }
 
 #question-form form {
-    border: .2rem solid var(--gray-blue);
+    border: .2rem solid var(--grey-blue);
     padding: 1.6rem;
     border-radius: 0 .8rem .8rem .8rem;
 
@@ -66,7 +66,7 @@
 }
 
 #question-form form textarea::placeholder {
-    color: var(--gray-blue);
+    color: var(--grey-blue);
 }
 
 #question-form form footer {
@@ -146,9 +146,9 @@
 /***QUESTION READ***/
 
 .question-wrapper.read {
-    background: var(--gray-medium);
+    background: var(--grey-medium);
 }
 
 .question-wrapper.read .question-content .user {
-    background: var(--gray-blue);
+    background: var(--grey-blue);
 }
