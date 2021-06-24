@@ -1,0 +1,24 @@
+{
+  "name": "rocketq",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuários direcionadas ao dono da página. Projeto desenvolvido na semana NLW Rockeseat na missão discover",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexVictorB/RocketQ_NLW6.git"
+  },
+  "keywords": [],
+  "author": "Alex Victor Barreto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexVictorB/RocketQ_NLW6/issues"
+  },
+  "homepage": "https://github.com/AlexVictorB/RocketQ_NLW6#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
